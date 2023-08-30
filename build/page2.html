@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar-Cipher Code</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="flex flex-col justify-center items-center h-screen gap-10 bg-[#fff3b0]">
+
+        <div class="flex flex-col items-center gap-8 w-[100%] px-8 sm:flex-row">
+            <div id="encrypt"
+                class="flex flex-col items-center border border-black w-[50%] py-10 bg-[#f4f3ee] min-w-fit">
+                <h1 class="sm:text-4xl mb-8 font-serif text-center xs:text-3xl 2xs:text-2xl">Encrypted Text</h1>
+                <div id="encryptedText"
+                    class="sm:text-2xl sm:w-[60%] text-black font-normal rounded flex justify-center items-center border border-black bg-gray-200 2xs:w-[80%] 2xs:text-lg">
+                </div>
+            </div>
+            <div id="decrypt"
+                class="flex flex-col items-center border border-black w-[50%] py-10 bg-[#f4f3ee] min-w-fit">
+                <h1 class="sm:text-4xl mb-8 font-serif text-center xs:text-3xl 2xs:text-2xl">Decrypted Text</h1>
+                <div id="decryptedText"
+                    class="sm:text-2xl sm:w-[60%] text-black font-normal rounded flex justify-center items-center border border-black bg-gray-200 2xs:w-[80%] 2xs:text-lg">
+                </div>
+            </div>
+        </div>
+
+        <a href="page1.html"
+            class="md:w-[10%] sm:h-[5vh] sm:text-2xl text-center font-medium font-serif rounded pt-[0.15rem] cursor-pointer border border-black bg-gray-300 hover:bg-gray-400 2xs:w-[30%] 2xs:text-lg">
+            <button class="md:mx-2">
+                Refresh
+            </button>
+        </a>
+
+    </div>
+
+</body>
+
+</html>
